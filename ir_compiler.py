@@ -3,7 +3,7 @@
 # Type hint for lvn_replaced
 
 import local_value_numbering
-from cse110A_parser import Parser
+from parser import Parser
 from typing import Callable,List,Tuple,Optional
 
 class IRCompiler():

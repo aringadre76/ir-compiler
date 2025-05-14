@@ -1,6 +1,6 @@
 import argparse
 from scanner import Scanner, tokens, Lexeme, Token
-from cse110A_parser import Parser
+from parser import Parser
 from ir_compiler import IRCompiler
 
 if __name__ == "__main__":

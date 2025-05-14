@@ -2,10 +2,10 @@
 
 ## Overview
 
-This project implements the components required for Homework 5 of the CSE110A course (Spring 2024). It includes:
+This project implements an Intermediate Representation Compiler. It includes:
 
 - A lexical analyzer (`scanner.py`)
-- A parser and AST builder (`cse110A_parser.py` and `cse110A_ast.py`)
+- A parser and AST builder (`parser.py` and `ast.py`)
 - An intermediate representation (IR) generator (`ir_compiler.py`)
 - A local value numbering optimization pass (`local_value_numbering.py`)
 - A C header file (`classir.h`) defining the IR data structures
@@ -60,8 +60,8 @@ You can also measure performance:
 ```
 .
 ├── classir.h
-├── cse110A_ast.py
-├── cse110A_parser.py
+├── ast.py
+├── parser.py
 ├── ir_compiler.py
 ├── local_value_numbering.py
 ├── main.py
@@ -72,7 +72,6 @@ You can also measure performance:
 │   └── timing/
 ├── run_tests.sh
 ├── time.sh
-├── CSE110A_HW5_SP24.pdf
 └── README.md
 ```
 
